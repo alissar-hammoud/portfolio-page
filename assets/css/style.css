@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+header {
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  width: 60vw;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9vh;
+  border-bottom: 2px solid white;
+  margin: 0 30px;
+  padding-top: 5px;
+}
+.navbar p {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  width: 50%;
+  color: #816fca;
+}
+.nav-item {
+  background-color: white;
+  padding: 7px 5px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 700;
+}
+form button:hover,
+.hero button:hover,
+.nav-item:hover {
+  background-color: #b7a7f6;
+  color: white;
+}
+.hero {
+  width: 80%;
+  height: 91vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+}
+.hero h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+}
+.hero p {
+  color: white;
+  font-size: 50px;
+  font-weight: 200;
+}
+.hero button {
+  width: 210px;
+  height: 48px;
+  background-color: white;
+  color: #816fca;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+}
+
+main {
+  width: 35vw;
+  margin: 0 auto;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+main h2 {
+  color: #816fca;
+  font-size: 35px;
+  font-weight: 800;
+  margin: 10px 0;
+}
+main .sub {
+  font-weight: 700;
+  color: black;
+  margin: 10px 0;
+}
+main p {
+  color: #858585;
+  margin: 10px 0;
+  line-height: 1.4;
+}
+main form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+input {
+  padding: 10px 5px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  margin: 5px 0;
+}
+input:focus {
+  background-color: #e6e8ec;
+  border: 2px solid #816fca;
+}
+form button {
+  background-color: #816fca;
+  color: white;
+  font-weight: 700;
+  border: none;
+  padding: 10px 0;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+main img {
+  border-radius: 100%;
+  width: 115px;
+  height: 115px;
+  margin: 0 auto;
+}
